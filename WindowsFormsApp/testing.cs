@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp
 {
-    public partial class EnterName : Form
+    public partial class testing : Form
     {
-        public EnterName()
+        public testing()
         {
             InitializeComponent();
-        }
-
-        private void btnclick_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show($"hello...{txtname.Text}");
-        }
-
-        private void EnterName_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

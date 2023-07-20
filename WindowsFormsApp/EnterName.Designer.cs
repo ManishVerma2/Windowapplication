@@ -70,6 +70,7 @@
             this.Name = "EnterName";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EnterName";
+            this.Load += new System.EventHandler(this.EnterName_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
